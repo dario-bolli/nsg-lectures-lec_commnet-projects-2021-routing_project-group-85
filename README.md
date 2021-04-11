@@ -24,13 +24,13 @@ The password to access the measurement container is `5ffa634282d3ca8e`.
 When trying to solve the [bonus question](https://gitlab.ethz.ch/nsg/lectures/lec_commnet/projects/2021/routing_project/assignment/-/wikis/1.-Assignment/1.3-Questions#bonus-question-35-05-point), you will need the certificate files and ports at which the VPN servers are listening:
 
 * __VPN server at S1:__  
-Port: `10156`  Certificate: [vnp1_ca.crt](/resources/vpn1_ca.crt)
+Port: `10102`  Certificate: [vnp1_ca.crt](/resources/vpn1_ca.crt)
 
 * __VPN server at S2:__  
-Port: `10157`  Certificate: [vnp2_ca.crt](/resources/vpn2_ca.crt)
+Port: `10103`  Certificate: [vnp2_ca.crt](/resources/vpn2_ca.crt)
 
 * __VPN server at S3:__  
-Port: `10158`  Certificate: [vnp3_ca.crt](/resources/vpn3_ca.crt)
+Port: `10104`  Certificate: [vnp3_ca.crt](/resources/vpn3_ca.crt)
 
 Note, that you will have to specify the correct certificate in the `client.conf` under `ca` (e.g., `ca vnp1_ca.crt`).
 
