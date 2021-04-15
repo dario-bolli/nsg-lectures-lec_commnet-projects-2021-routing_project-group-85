@@ -1,0 +1,17 @@
+Building configuration...
+
+Current configuration:
+!
+frr version 7.5
+frr defaults traditional
+hostname BROO_router
+!
+interface BROO-L2.10
+ ip address 85.200.0.110/24
+!
+interface BROO-L2.20
+ ip address 85.200.1.120/24
+!
+line vty
+!
+end
