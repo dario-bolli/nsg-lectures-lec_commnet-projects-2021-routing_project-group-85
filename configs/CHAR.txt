@@ -1,0 +1,97 @@
+Building configuration...
+
+Current configuration:
+!
+frr version 7.5
+frr defaults traditional
+hostname CHAR_router
+!
+ip route 85.0.0.0/8 Null0
+!
+interface ext_88_DETR
+ ip address 179.1.23.1/24
+!
+interface host
+ ip address 85.103.0.2/24
+!
+interface lo
+ ip address 85.153.0.1/24
+!
+interface matrix_85
+ ip address 85.0.198.1/24
+!
+interface port_NASH
+ ip address 85.0.6.1/24
+ ip ospf cost 6
+!
+interface port_NEWY
+ ip address 85.0.4.2/24
+ ip ospf cost 6
+!
+interface port_PITT
+ ip address 85.0.5.1/24
+ ip ospf cost 11
+!
+router bgp 85
+ neighbor 85.151.0.1 remote-as 85
+ neighbor 85.151.0.1 update-source lo
+ neighbor 85.152.0.1 remote-as 85
+ neighbor 85.152.0.1 update-source lo
+ neighbor 85.154.0.1 remote-as 85
+ neighbor 85.154.0.1 update-source lo
+ neighbor 85.155.0.1 remote-as 85
+ neighbor 85.155.0.1 update-source lo
+ neighbor 85.156.0.1 remote-as 85
+ neighbor 85.156.0.1 update-source lo
+ neighbor 85.157.0.1 remote-as 85
+ neighbor 85.157.0.1 update-source lo
+ neighbor 85.158.0.1 remote-as 85
+ neighbor 85.158.0.1 update-source lo
+ neighbor 179.1.23.2 remote-as 88
+ !
+ address-family ipv4 unicast
+  network 85.0.0.0/8
+  neighbor 85.151.0.1 next-hop-self
+  neighbor 85.152.0.1 next-hop-self
+  neighbor 85.154.0.1 next-hop-self
+  neighbor 85.155.0.1 next-hop-self
+  neighbor 85.156.0.1 next-hop-self
+  neighbor 85.157.0.1 next-hop-self
+  neighbor 85.158.0.1 next-hop-self
+  neighbor 179.1.23.2 route-map 88_MAP_IN in
+  neighbor 179.1.23.2 route-map 88_MAP_OUT out
+ exit-address-family
+!
+router ospf
+ network 85.0.4.0/24 area 0
+ network 85.0.5.0/24 area 0
+ network 85.0.6.0/24 area 0
+ network 85.0.198.0/24 area 0
+ network 85.103.0.0/24 area 0
+ network 85.153.0.0/24 area 0
+!
+ip prefix-list 4 seq 5 permit 85.0.0.0/8
+ip prefix-list 4 seq 10 permit 85.108.0.0/26
+ip prefix-list 4 seq 15 permit 85.108.0.64/26
+!
+bgp community-list 1 seq 5 permit 85:100
+bgp community-list 2 seq 5 permit 85:200
+!
+route-map ACCEPT_ALL permit 10
+!
+route-map 88_MAP_IN permit 10
+ set community 85:100
+ set local-preference 1000
+!
+route-map 88_MAP_OUT permit 10
+ match community 1
+!
+route-map 88_MAP_OUT permit 20
+ match community 2
+!
+route-map 88_MAP_OUT permit 30
+ match ip address prefix-list 4
+!
+line vty
+!
+end
