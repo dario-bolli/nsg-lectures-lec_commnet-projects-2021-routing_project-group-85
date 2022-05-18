@@ -28,43 +28,43 @@ This interface is virtually identical to the one used by actual network operator
 This wiki consists of three main parts, an assignment, a tutorial and a FAQ section. The assignment section contains:
 
 
-* General instructions about the project, including submission instructions.
+* [General instructions](https://gitlab.ethz.ch/nsg/lectures/lec_commnet/projects/2021/routing_project/assignment/-/wikis/1.-Assignment/1.1-General-Instructions) about the project, including submission instructions.
 
-* An overview of the mini-Internet and the network you will configure.
+* [An overview](https://gitlab.ethz.ch/nsg/lectures/lec_commnet/projects/2021/routing_project/assignment/-/wikis/1.-Assignment/1.2-Your-mini-Internet) of the mini-Internet and the network you will configure.
 
-* The tasks you need to solve and what to include in your final report.
+* [The tasks you need to solve](https://gitlab.ethz.ch/nsg/lectures/lec_commnet/projects/2021/routing_project/assignment/-/wikis/1.-Assignment/1.3-Questions) and what to include in your final report.
 
-* The tools to help you testing and verifying your configuration.
+* [The tools to help you](https://gitlab.ethz.ch/nsg/lectures/lec_commnet/projects/2021/routing_project/assignment/-/wikis/1.-Assignment/1.4-Tools-to-help-you) testing and verifying your configuration.
 
 The tutorial section explains how to:
 
 
-* Access your devices such as routers, switches and hosts.
+* [Access your devices](https://gitlab.ethz.ch/nsg/lectures/lec_commnet/projects/2021/routing_project/assignment/-/wikis/2.-Tutorial/2.1-Accessing-your-devices) such as routers, switches and hosts.
 
 * [Configure a host](https://gitlab.ethz.ch/nsg/lectures/lec_commnet/projects/2021/routing_project/assignment/-/wikis/2.-Tutorial/2.2-Configuring-a-host) to e.g., give it an IP address.
 
-* Configure an Open vSwitch to enable layer 2 connectivity.
+* [Configure an Open vSwitch](https://gitlab.ethz.ch/nsg/lectures/lec_commnet/projects/2021/routing_project/assignment/-/wikis/2.-Tutorial/2.3-Configuring-Open-vSwitch) to enable layer 2 connectivity.
 
-* Configure 6in4 tunnels to allow IPv6 traffic to be forwarded over an IPv4 network.
+* [Configure 6in4 tunnels](https://gitlab.ethz.ch/nsg/lectures/lec_commnet/projects/2021/routing_project/assignment/-/wikis/2.-Tutorial/2.4-Configure-6in4-tunnels) to allow IPv6 traffic to be forwarded over an IPv4 network.
 * Configure IP routers to establish layer 3 connectivity within one AS and between ASes. More precisely, the tutorial covers:
 
-   * The FRRouting CLI which you use to configure the routers.
+   * [The FRRouting CLI](https://gitlab.ethz.ch/nsg/lectures/lec_commnet/projects/2021/routing_project/assignment/-/wikis/2.-Tutorial/2.5-Configuring-IP-routers/2.5.1-The-FRRouting-CLI) which you use to configure the routers.
 
-   * Interface configuration, e.g. how you can configure IP addresses.
+   * [Interface configuration](https://gitlab.ethz.ch/nsg/lectures/lec_commnet/projects/2021/routing_project/assignment/-/wikis/2.-Tutorial/2.5-Configuring-IP-routers/2.5.2-Configuring-router-interfaces), e.g. how you can configure IP addresses.
 
-   * Static route configuration to precisely steer the forwarding behavior of certain traffic.
+   * [Static route configuration](https://gitlab.ethz.ch/nsg/lectures/lec_commnet/projects/2021/routing_project/assignment/-/wikis/2.-Tutorial/2.5-Configuring-IP-routers/2.5.3-Configure-static-routes) to precisely steer the forwarding behavior of certain traffic.
 
-   * OSPF configuration to establish connectivity within your AS.
+   * [OSPF configuration](https://gitlab.ethz.ch/nsg/lectures/lec_commnet/projects/2021/routing_project/assignment/-/wikis/2.-Tutorial/2.5-Configuring-IP-routers/2.5.4-Configure-OSPF) to establish connectivity within your AS.
 
-   * BGP configuration to establish connectivity between different ASes.
+   * [BGP configuration](https://gitlab.ethz.ch/nsg/lectures/lec_commnet/projects/2021/routing_project/assignment/-/wikis/2.-Tutorial/2.5-Configuring-IP-routers/2.5.5-Configure-BGP) to establish connectivity between different ASes.
 
-   * BGP policies to give you more control over how the traffic is forwarded inside your AS.
+   * [BGP policies](https://gitlab.ethz.ch/nsg/lectures/lec_commnet/projects/2021/routing_project/assignment/-/wikis/2.-Tutorial/2.5-Configuring-IP-routers/2.5.6-Configure-BGP-policies) to give you more control over how the traffic is forwarded inside your AS.
 
 
 
-* VPN configuration to show you how to access the mini-Internet over a VPN connection (for the bonus question).
+* [VPN configuration](https://gitlab.ethz.ch/nsg/lectures/lec_commnet/projects/2021/routing_project/assignment/-/wikis/2.-Tutorial/2.6-VPN-configuration) to show you how to access the mini-Internet over a VPN connection (for the bonus question).
 
-Finally we have a list of frequently asked questions that we will also continue to update during the project.
+Finally we have a list of [frequently asked questions](https://gitlab.ethz.ch/nsg/lectures/lec_commnet/projects/2021/routing_project/assignment/-/wikis/3.-Frequently-Asked-Questions) that we will also continue to update during the project.
 
 # Additional useful links
 In addition, the following links will be useful during the project. We also refer to them later in the description of the tasks and tools.
