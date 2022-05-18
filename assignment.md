@@ -28,7 +28,7 @@ This interface is virtually identical to the one used by actual network operator
 This wiki consists of three main parts, an assignment, a tutorial and a FAQ section. The assignment section contains:
 
 
-⋅⋅*General instructions about the project, including submission instructions.
+..*General instructions about the project, including submission instructions.
 
 ⋅⋅*An overview of the mini-Internet and the network you will configure.
 
