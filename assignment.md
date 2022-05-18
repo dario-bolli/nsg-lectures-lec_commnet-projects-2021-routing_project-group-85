@@ -48,17 +48,17 @@ The tutorial section explains how to:
 * Configure 6in4 tunnels to allow IPv6 traffic to be forwarded over an IPv4 network.
 * Configure IP routers to establish layer 3 connectivity within one AS and between ASes. More precisely, the tutorial covers:
 
-   The FRRouting CLI which you use to configure the routers.
+   * The FRRouting CLI which you use to configure the routers.
 
-   Interface configuration, e.g. how you can configure IP addresses.
+   * Interface configuration, e.g. how you can configure IP addresses.
 
-⋅⋅⋅Static route configuration to precisely steer the forwarding behavior of certain traffic.
+   * Static route configuration to precisely steer the forwarding behavior of certain traffic.
 
-⋅⋅⋅OSPF configuration to establish connectivity within your AS.
+   * OSPF configuration to establish connectivity within your AS.
 
-⋅⋅⋅BGP configuration to establish connectivity between different ASes.
+   * BGP configuration to establish connectivity between different ASes.
 
-⋅⋅⋅BGP policies to give you more control over how the traffic is forwarded inside your AS.
+   * BGP policies to give you more control over how the traffic is forwarded inside your AS.
 
 
 
