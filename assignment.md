@@ -30,40 +30,40 @@ This wiki consists of three main parts, an assignment, a tutorial and a FAQ sect
 
 * General instructions about the project, including submission instructions.
 
-⋅⋅*An overview of the mini-Internet and the network you will configure.
+* An overview of the mini-Internet and the network you will configure.
 
-⋅⋅*The tasks you need to solve and what to include in your final report.
+* The tasks you need to solve and what to include in your final report.
 
-⋅⋅*The tools to help you testing and verifying your configuration.
+* The tools to help you testing and verifying your configuration.
 
 The tutorial section explains how to:
 
 
-⋅⋅*Access your devices such as routers, switches and hosts.
+* Access your devices such as routers, switches and hosts.
 
-⋅⋅*Configure a host to e.g., give it an IP address.
+* Configure a host to e.g., give it an IP address.
 
-⋅⋅*Configure an Open vSwitch to enable layer 2 connectivity.
+* Configure an Open vSwitch to enable layer 2 connectivity.
 
-⋅⋅*Configure 6in4 tunnels to allow IPv6 traffic to be forwarded over an IPv4 network.
-⋅⋅*Configure IP routers to establish layer 3 connectivity within one AS and between ASes. More precisely, the tutorial covers:
-
-
-⋅⋅⋅*The FRRouting CLI which you use to configure the routers.
-
-Interface configuration, e.g. how you can configure IP addresses.
-
-Static route configuration to precisely steer the forwarding behavior of certain traffic.
-
-OSPF configuration to establish connectivity within your AS.
-
-BGP configuration to establish connectivity between different ASes.
-
-BGP policies to give you more control over how the traffic is forwarded inside your AS.
+* Configure 6in4 tunnels to allow IPv6 traffic to be forwarded over an IPv4 network.
+* Configure IP routers to establish layer 3 connectivity within one AS and between ASes. More precisely, the tutorial covers:
 
 
+..* The FRRouting CLI which you use to configure the routers.
 
-⋅⋅*VPN configuration to show you how to access the mini-Internet over a VPN connection (for the bonus question).
+..* Interface configuration, e.g. how you can configure IP addresses.
+
+..* Static route configuration to precisely steer the forwarding behavior of certain traffic.
+
+..* OSPF configuration to establish connectivity within your AS.
+
+..* BGP configuration to establish connectivity between different ASes.
+
+..* BGP policies to give you more control over how the traffic is forwarded inside your AS.
+
+
+
+* VPN configuration to show you how to access the mini-Internet over a VPN connection (for the bonus question).
 
 Finally we have a list of frequently asked questions that we will also continue to update during the project.
 
@@ -71,10 +71,10 @@ Finally we have a list of frequently asked questions that we will also continue 
 In addition, the following links will be useful during the project. We also refer to them later in the description of the tasks and tools.
 
 
-⋅⋅*[AS connections](https://comm-net.ethz.ch/routing_project/as_connections): The list of the interconnections between the different ASes.
+* [AS connections](https://comm-net.ethz.ch/routing_project/as_connections): The list of the interconnections between the different ASes.
 
-⋅⋅*[Connectivity matrix](https://comm-net.ethz.ch/routing_project/matrix/matrix.html): A connectivity matrix that will tell you with whom you can communicate.
+* [Connectivity matrix](https://comm-net.ethz.ch/routing_project/matrix/matrix.html): A connectivity matrix that will tell you with whom you can communicate.
 
-⋅⋅*[BGP looking glass](https://comm-net.ethz.ch/routing_project/looking_glass/G1/NEWY.txt): A service to see the routing table of every router.
+* [BGP looking glass](https://comm-net.ethz.ch/routing_project/looking_glass/G1/NEWY.txt): A service to see the routing table of every router.
 
-⋅⋅*[BGP policy analyzer](https://comm-net.ethz.ch/routing_project/bgp_analyzer/analysis.html): An almost real time BGP policy analyzer that detects and prints (most, but not all) route leaks for every AS.
+* [BGP policy analyzer](https://comm-net.ethz.ch/routing_project/bgp_analyzer/analysis.html): An almost real time BGP policy analyzer that detects and prints (most, but not all) route leaks for every AS.
