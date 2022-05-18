@@ -41,7 +41,7 @@ The tutorial section explains how to:
 
 * Access your devices such as routers, switches and hosts.
 
-* Configure a host to e.g., give it an IP address.
+* [Configure a host](https://gitlab.ethz.ch/nsg/lectures/lec_commnet/projects/2021/routing_project/assignment/-/wikis/2.-Tutorial/2.2-Configuring-a-host) to e.g., give it an IP address.
 
 * Configure an Open vSwitch to enable layer 2 connectivity.
 
