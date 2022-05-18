@@ -2,7 +2,7 @@ In this wiki you can find everything about the mini-Internet project,
 which is part of the [Communication Networks Course] (https://comm-net.ethz.ch/) at ETH taught by Prof. Laurent Vanbever
 from the [Networked Systems Group] (https://nsg.ee.ethz.ch/home/).
 
-Introduction to the project
+##Introduction to the project
 In this project, you will build and operate your very own mini-Internet
 together with more than 100 of your fellow classmates. Your main goal? Enabling
 end-to-end connectivity across around 70 Autonomous Systems (ASes) composed
@@ -19,12 +19,12 @@ Border Gateway Protocol (BGP). At the end of the project, end-hosts should
 be able to communicate with each other, independently of the AS they are
 located in.
 To help you, we have pre-built a base network topology on top of virtual
-layer-2 switches, running Open vSwitch and
-virtual routers, running the FRRouting software routing suite.
+layer-2 switches, running [Open vSwitch] (https://www.openvswitch.org/) and
+virtual routers, running the [FRRouting software routing suite] (https://frrouting.org/).
 You will configure the virtual switches and routers through a Command Line Interface (CLI).
 This interface is virtually identical to the one used by actual network operators.
 
-Table of contents
+##Table of contents
 This wiki consists of three main parts, an assignment, a tutorial and a FAQ section. The assignment section contains:
 
 
