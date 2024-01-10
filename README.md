@@ -1,4 +1,7 @@
-# Routing Project - Group 85
+# Routing Project in the context of the communication networks course at ETH Zurich
+[routing project's wiki](https://gitlab.ethz.ch/nsg/public/comm-net-2022-routing-project/-/wikis/home)
+
+## Routing Project - Group 85
 
 This is your group repository it contains the credentials to access your network and the necessary information to setup the VPN from the bonus question. You will also use this repository to submit your work---both the configurations and the report---at the end of the project.
 
