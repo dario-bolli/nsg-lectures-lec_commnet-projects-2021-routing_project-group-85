@@ -1,5 +1,5 @@
 # Routing Project in the context of the communication networks course at ETH Zurich
-[routing project's wiki](https://gitlab.ethz.ch/nsg/public/comm-net-2022-routing-project/-/wikis/home)
+[Routing project's wiki](https://gitlab.ethz.ch/nsg/public/comm-net-2022-routing-project/-/wikis/home)
 
 ## Routing Project - Group 85
 
